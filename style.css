@@ -1,0 +1,95 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+body{
+  background-image: url(../imagens/churras.jpg);
+  background-repeat: repeat;
+  background-size: cover;  
+  image-resolution: 200px ;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  width: 400px;
+  height: 500px;
+  border: solid gold;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(10, 10, 10, 0.45);
+  margin-top: 40px;
+}
+
+.box:hover{
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+h1{
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  border-bottom: solid gold;
+  font-variant-caps:petite-caps;
+  color: gold;
+}
+
+input{
+  width: 70%;
+  margin: 10px 0px 10px 0px;
+  box-sizing: border-box;
+  margin: auto;
+  border: none;
+  border-bottom: solid goldenrod;
+  background-color: rgba(10, 10, 10, 0.45);
+  color: white;
+}
+
+
+label{
+  margin: 10px 0px 10px 0px;
+  margin: auto;
+  color: gold;
+}
+
+button{
+  width: 70%;
+  margin: auto;
+  border: gold solid;
+  background-color: rgba(10, 10, 10, 0.45);
+  color: gold;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#resultado{
+  width: 300px;
+  height: 300px;
+  border: solid gold;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(10, 10, 10, 0.45);
+  margin-top: 40px;
+  color: gold;
+  text-align: center;
+}
+
+#resultado:hover{
+  background-color: rgba(0, 0, 0, 0.75);
+}

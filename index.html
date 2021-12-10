@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currascômetro</title>
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>Currascômetro</h1>
+      <label for="adultos">Quantidade de adultos:</label>
+      <input type="number" name="adultos" id="adultos">
+      
+      <label for="criancas">Quantidade de crianças: </label>
+      <input type="number" name="criancas" id="criancas">
+      
+      <label for="duracao">Tempo de duração:</label>
+      <input type="number" name="duracao" id="duracao">
+  
+      <button onclick="calc()">Resultado</button>
+      <button id="limpar">Limpar</button>
+    </div>
+    
+    <div id="resultado" style="display: none;"> 
+        
+    </div>
+  </div>
+  <script src="../js/scrip.js"></script>
+</body>
+</html>
