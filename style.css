@@ -8,7 +8,7 @@
   font-size: 1.1em;
 }
 body{
-  background-image: url(../imagens/churras.jpg);
+  background-image: url(imagens/churras.jpg);
   background-repeat: repeat;
   background-size: cover;  
   image-resolution: 200px ;
